@@ -1,0 +1,103 @@
+header{
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+    width:  100%;
+    color: white;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+header h1{
+    padding: 6px 12px;
+    display: inline-block;
+    border: 8px solid white;
+    border-radius: 36px;
+   
+}
+.banner{
+    position: relative;
+}
+.banner img{
+    max-width: 100%;
+}
+.banner .welcome{
+    color: white;
+    background-color: orange;
+    padding: 30px;
+    position: absolute;
+    left: 0;
+    top: 30%;
+}
+.banner h2{
+    font-size: 72px;
+}
+.banner h2 span{
+    font-size: 1.2em;
+}
+nav{
+    background-color: white;
+    position: sticky;
+    padding: 20px;
+    top: 140px;
+
+
+}
+nav ul{
+    white-space: nowrap;
+    margin: auto;
+    max-width: 1200px; 
+}
+nav li{
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+}
+nav li a{
+    text-decoration: none;
+    color: green;
+}
+main{
+    max-width: 100%;
+
+}
+article h1{
+    color: purple;
+    font-size: 47px;
+}
+article p{
+    color: lightcoral;
+}
+.images{
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+
+}
+.images li{
+    display: inline-block;
+    width: 40%;
+    
+}
+.images li img{
+    max-width: 100%;
+    
+}
+section.join{
+    padding: 60px 20px;
+    background-color: white;
+    color: orange;
+    text-align: center;
+
+}
+.join h1{
+    color: red;
+}
+.join input{
+    background-color: purple;
+}
+footer{
+    text-align: center;
+    text-decoration: line-through;
+}
